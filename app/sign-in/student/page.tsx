@@ -77,7 +77,7 @@ export default function SignInPage() {
 
             <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-xl p-6 shadow-xl">
               <SignIn
-                redirectUrl="/dashboard"
+                forceRedirectUrl="/dashboard"
                 appearance={{
                   elements: {
                     formButtonPrimary:

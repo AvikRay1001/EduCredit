@@ -24,7 +24,7 @@ export default function SignInPage() {
 
   useEffect(() => {
     if (isSignedIn) {
-      router.push("/investor");
+      router.push("/onboarding/investor");
     }
   }, [isSignedIn, router]);
 
@@ -60,7 +60,7 @@ export default function SignInPage() {
 
             <div className="bg-slate-800/60 backdrop-blur-md border border-slate-700/40 p-6 rounded-2xl shadow-xl">
               <SignIn
-                redirectUrl="/investor"
+                forceRedirectUrl="/onboarding/investor"
                 appearance={{
                   elements: {
                     formButtonPrimary:

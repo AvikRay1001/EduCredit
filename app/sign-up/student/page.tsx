@@ -87,7 +87,7 @@ export default function SignUpPage() {
             <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-xl p-6 shadow-xl">
               <SignUp
                 signInUrl="/sign-in"
-                redirectUrl="/onboarding"
+                forceRedirectUrl="/onboarding"
                 appearance={{
                   elements: {
                     formButtonPrimary:
