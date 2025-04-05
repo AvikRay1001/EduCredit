@@ -23,7 +23,7 @@ export default function SignUpPage() {
 
   useEffect(() => {
     if (isSignedIn) {
-      router.push("/investor");
+      router.push("/onboarding/investor");
     }
 
     // Add a subtle background animation effect
@@ -87,7 +87,7 @@ export default function SignUpPage() {
             <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-xl p-6 shadow-xl">
               <SignUp
                 signInUrl="/sign-in"
-                redirectUrl="/onboarding"
+                forceRedirectUrl="/onboarding/investor"
                 appearance={{
                   elements: {
                     formButtonPrimary:
