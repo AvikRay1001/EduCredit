@@ -1,5 +1,5 @@
 "use client";
-
+import Layout from "../components/layout/Layout";
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -30,7 +30,6 @@ import FeaturedItem from "./components/FeaturedItem";
 import MarketplaceItem from "./components/MarketplaceItem";
 import SearchBar from "./components/SearchBar";
 import EmptyState from "./components/EmptyState";
-import Layout from "../components/layout/Layout";
 
 // Mock data fetch
 const fetchMarketplaceItems = async () => {
